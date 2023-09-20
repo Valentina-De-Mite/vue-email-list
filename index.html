@@ -15,7 +15,9 @@
 
     <div id="app">
         <h2>E-Mail List Generator:</h2>
-        <ul>
+
+        <!-- BONUS: -->
+        <ul v-show="emails.length === 10">
             <li v-for="email in emails">{{email}}</li>
         </ul>
     </div>
